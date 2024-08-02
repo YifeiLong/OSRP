@@ -11,7 +11,7 @@ import torchvision.transforms as transforms
 import torch.optim as optim
 
 
-# load soft target file, T = 30
+# load soft target file, T = 3
 def load_soft_target(dataset):
     file_path = 'output/soft_target/' + dataset + '.txt'
     tensors = []
